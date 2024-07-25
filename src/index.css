@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background: linear-gradient(45deg, #3949ab, #42a5f5);
+}
+.checkbox:hover input ~ .checkmark {
+    background-color: #c095c0;
+  }
+  .checkbox input:checked ~ .checkmark {
+    background-color: #1c09ac;
+  }
